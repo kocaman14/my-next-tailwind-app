@@ -16,7 +16,7 @@ export default function Home() {
     <input className="xl:w-[572px] xl:h-[50px]  lg:w-[350px] lg:h-[40px] md:w-[250px] md:h-[30px] opacity-30 border-[1px] border-[rgba(0,0,0,0.84)]" placeholder="Password"></input>
     </div>
     <div className="flex justify-center pt-10">
-<button className="text-white xl:text-[40px] xl:w-[350px]  lg:text-[30px] lg:w-[100px]  md:text-[25px] md:w-[100px] md:h-[40px] border-0 border-solid border-[rgba(0,0,0,0.7)] bg-[rgba(5,5,5,0.59)]">LOGIN</button>
+<button className="text-white xl:text-[40px] xl:w-[350px]  xl:h-[60px] lg:text-[30px] lg:w-[100px]  md:text-[25px] md:w-[100px] md:h-[40px] border-0 border-solid border-[rgba(0,0,0,0.7)] bg-[rgba(5,5,5,0.59)]">LOGIN</button>
 <div className="flex flex-col pl-8">
  <a href="" className=" xl:text-[25px] text-[rgba(255,255,255,0.7)] text-white">Forgot Password</a> 
  <a href="" className="xl:text-[25px] font-montserrat text-[rgba(255,255,255,0.7)] text-white" >Register</a> 
