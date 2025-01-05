@@ -1,101 +1,34 @@
-import Image from "next/image";
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="h-screen bg-cover bg-center relative" style={{ backgroundImage: "url('/images/Rectangle 1.png')" }} > 
+<div className="xl:w-[400px] xl:h-[400px] xl:top-[30px] xl:left-[297px]  lg:w-[200px] lg:h-[200px] lg:top-[100px] lg:left-[150px] md:w-[150px] md:h-[150px] md:top-[240px] md:left-[150px]  sm:w-[100px] sm:h-[100px] sm:top-[20px] sm:left-[150px]  w-[100px] h-[100px] top-[170px] left-[30px] absolute  bg-[#c4c4c4] bg-opacity-10 xl:border-[37px]  lg:border-[15px] md:border-[15px] sm:border-[15px] border-[15px] border-t-[#00000045] border-l-[#00000045] border-r-[#00000045] border-b-[#00000045] rounded-full">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+</div>
+
+
+    <div className="xl:w-[681px] xl:h-[400px] lg:w-[440px] lg:h-[300px] md:w-[300px] md:h-[250px] sm:w-[300px] sm:h-[200px]  w-[250px] h-[200px] rounded-[10%] bg-[rgba(255,255,255,0.2)] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+
+<div className="flex justify-center text-white xl:text-[60px] lg:text-[40px] md:text-[30px] sm:text-[25px] text-[20px] font-bold font-montserrat">LOGIN</div>
+    <div className="flex flex-col items-center gap-4">
+    <input  className="xl:w-[572px] xl:h-[50px] lg:w-[350px] lg:h-[40px] md:w-[250px] md:h-[30px] opacity-30 border-[1px] border-[rgba(0,0,0,0.84)]  " placeholder="Username"></input>
+    <input className="xl:w-[572px] xl:h-[50px]  lg:w-[350px] lg:h-[40px] md:w-[250px] md:h-[30px] opacity-30 border-[1px] border-[rgba(0,0,0,0.84)]" placeholder="Password"></input>
+    </div>
+    <div className="flex justify-center pt-10">
+<button className="text-white xl:text-[40px] xl:w-[350px]  lg:text-[30px] lg:w-[100px]  md:text-[25px] md:w-[100px] md:h-[40px] border-0 border-solid border-[rgba(0,0,0,0.7)] bg-[rgba(5,5,5,0.59)]">LOGIN</button>
+<div className="flex flex-col pl-8">
+ <a href="" className=" xl:text-[25px] text-[rgba(255,255,255,0.7)] text-white">Forgot Password</a> 
+ <a href="" className="xl:text-[25px] font-montserrat text-[rgba(255,255,255,0.7)] text-white" >Register</a> 
+</div>
+    </div>
+
+    
+    
+    </div>
+
+
+
     </div>
   );
 }
